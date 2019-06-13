@@ -333,3 +333,36 @@ footer {
 	width: 420px;
 	height: 300px;
 }
+
+/* Tablet Responsive Styles */
+@media (max-width: 800px) {
+	.container {
+		max-width: 750px;
+	}
+	header {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	header .logo {
+		width: 200px;
+		margin: 40px auto 20px;
+	}
+	nav {
+		margin: 0 auto;
+	}
+	.cta img {
+		display: none;
+	}
+	.cta .cta-text {
+		margin: 0 auto;
+	}
+	.text-content {
+		margin: 10px;
+	}
+	.middle-img {
+		width: 97%;
+	}
+	.contact p {
+		margin: 0;
+	}
+}
