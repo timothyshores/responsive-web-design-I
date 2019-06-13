@@ -366,3 +366,42 @@ footer {
 		margin: 0;
 	}
 }
+
+@media (max-width: 500px) {
+	.container {
+		width: 450px;
+	}
+	header nav {
+		width: 100%;
+		margin-top: 0;
+	}
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	nav a {
+		width: 100%;
+		text-align: center;
+		border-top: 1px solid black;
+		padding: 22px;
+	}
+	nav a:last-child {
+		border-bottom: 1px solid black;
+	}
+	.text-content {
+		margin: 35px 0;
+	}
+	.main-content {
+		margin: 75px 0 0;
+	}
+	.main-content .top-content {
+		display: block;
+	}
+	.main-content .bottom-content {
+		display: block;
+	}
+	.contact {
+		margin: 25px 0;
+	}
+}
